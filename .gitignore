@@ -15,9 +15,9 @@ venv/
 # Airflow
 # -----------------------------
 # Airflow runtime logs (never commit)
+docker/airflow/logs/*
+!docker/airflow/logs/
 !docker/airflow/logs/README
-docker/airflow/logs/
-docker/airflow/logs/* 
 
 # Airflow local SQLite DB (if ever created)
 airflow.db
