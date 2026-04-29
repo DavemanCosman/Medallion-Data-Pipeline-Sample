@@ -62,9 +62,3 @@ Thumbs.db
 # -----------------------------
 .vscode/
 .idea/
-
-# -----------------------------
-# Project-specific
-# -----------------------------
-# Ignore root-level airflow folder if unused
-airflow/
