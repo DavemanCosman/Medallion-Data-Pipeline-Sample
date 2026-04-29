@@ -5,6 +5,8 @@
 - WSL2 installed and set as default
 - Docker Desktop installed and running
 
+Also make sure you create a directory called `../docker/airflow/logs` for this project.
+
 ## Initial Setup (run once)
 These commands only need to be executed the **first time** you set up the environment.
 1. `docker compose run airflow-webserver airflow db init`
