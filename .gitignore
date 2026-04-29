@@ -1,0 +1,70 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+
+# -----------------------------
+# Airflow
+# -----------------------------
+# Airflow runtime logs (never commit)
+docker/airflow/logs/
+docker/airflow/logs/*
+
+# Airflow local SQLite DB (if ever created)
+airflow.db
+
+# Airflow PID files
+*.pid
+
+# -----------------------------
+# Docker
+# -----------------------------
+# Local volumes
+postgres_data/
+minio_data/
+
+# Docker build artifacts
+*.tar
+*.img
+
+# -----------------------------
+# MinIO
+# -----------------------------
+# If you mount MinIO data locally, ignore it
+minio/
+minio_data/
+
+# -----------------------------
+# dbt
+# -----------------------------
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+# Ignore root-level airflow folder if unused
+airflow/

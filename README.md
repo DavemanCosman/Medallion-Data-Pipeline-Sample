@@ -22,10 +22,10 @@ This is a demo project. It demonstrates:
 - reproducible local development
 
 ## Project Structure
-- airflow/     # DAGs and orchestration
-- dbt/         # dbt models, tests, and documentation
-- data/        # local data and MinIO buckets
-- docker/      # Docker Compose environment
-- scripts/     # ingestion and utility scripts
-- tests/       # data quality and unit tests
-- docs/        # architecture diagrams and documentation
+- dbt/      		# dbt models, tests, and documentation
+- data/				# local data and MinIO buckets
+- docker/      		# Docker Compose environment
+- docker/airflow/	# DAGs and orchestration
+- scripts/			# ingestion and utility scripts
+- tests/      		# data quality and unit tests
+- docs/      		# architecture diagrams and documentation
