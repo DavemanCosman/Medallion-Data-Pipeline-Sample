@@ -1,5 +1,5 @@
 # Medallion-Data-Pipeline-Sample
-Sample Data pipeline with medallion architecture, built entirely in open source
+Sample Data pipeline with medallion architecture, built entirely in open source. Work in progress.
 
 ## About
 An end-to-end, open source data medallion data pipeline implementinmg Bronze -> Silver -> Gold architecture.
