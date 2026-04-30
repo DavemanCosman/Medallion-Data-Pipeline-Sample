@@ -35,6 +35,7 @@ docker/.env
 # Docker build artifacts
 *.tar
 *.img
+*.env
 
 # -----------------------------
 # MinIO
