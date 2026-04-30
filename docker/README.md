@@ -11,12 +11,12 @@ Also make sure you create a directory called `../docker/airflow/logs` for this p
 These commands only need to be executed the **first time** you set up the environment.
 1. `docker compose run airflow-webserver airflow db init`
 2. ```docker compose run airflow-webserver airflow users create \
-    --username airflow \
-    --password airflow \
+    --username <your-username> \
+    --password <your-password> \
     --firstname Admin \
     --lastname User \
     --role Admin \
-    --email admin@example.com``` (these are default credentials; it is HIGHLY recommended you change these creds for your own implementation)
+    --email admin@example.com``` (change these creds for your own implementation)
 3. `docker compose up -d`
 4. `docker ps` (check for status)
 
@@ -29,9 +29,9 @@ These commands only need to be executed the **first time** you set up the enviro
 If you see warnings about orphan containers, then instead of step 4, run this:
 	`docker compose down --remove-orphans`
 
-## Logins
+## Default login details
 
-*REMEMBER*: as per the initial setup, these are just default credentials. They are NEVER to be used in live environments that are deployed. It is HIGHLY recommended you change them for your own implementation.
+*REMEMBER*: these are just default credentials. They are NEVER to be used in live environments that are deployed. It is HIGHLY recommended you change them for your own implementation.
 
 ### Airflow
 local url: http://localhost:8080
