@@ -30,6 +30,7 @@ airflow.db
 # Local volumes
 postgres_data/
 minio_data/
+docker/.env
 
 # Docker build artifacts
 *.tar
